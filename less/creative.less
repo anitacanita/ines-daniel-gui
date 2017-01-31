@@ -122,17 +122,17 @@ aside {
         background-color: transparent;
         border-color: fade(white, 30%);
         .navbar-header .navbar-brand {
-            color: fade(white, 70%);
+            color: @theme-primary;
             &:hover,
             &:focus {
-                color: white;
+                color: fade(@theme-primary, 70%);
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: fade(white, 70%);
+            color: @gray-darker;
             &:hover {
-                color: white;
+                color: fade(@theme-primary, 70%);
             }
         }
         &.affix {
@@ -167,7 +167,7 @@ header {
     background-position: center;
     background-image: url('../img/header.jpg');
     text-align: center;
-    color: white;
+    color: @theme-primary;
     .header-content {
         position: relative;
         text-align: center;
@@ -176,7 +176,7 @@ header {
         .header-content-inner {
             h1 {
                 font-weight: 700;
-                text-transform: uppercase;
+                text-transform: none;
                 margin-top: 0;
                 margin-bottom: 0;
                 font-size: 30px;
@@ -317,15 +317,16 @@ header {
 }
 
 .btn-primary {
-    .button-variant(white;@theme-primary;@theme-primary);
+    .button-variant(@theme-primary;white;@theme-primary);
 }
 
 .btn {
     .sans-serif-font;
-    border: none;
+    border-style: solid;
+    border-width: 3px;
     border-radius: 300px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: uppercase;;
 }
 
 .btn-xl {
