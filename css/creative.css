@@ -55,6 +55,11 @@ p {
 section {
   padding: 100px 0;
 }
+@media (max-width: 992px) {
+  section {
+    padding: 20px ;
+  }
+}
 aside {
   padding: 50px 0;
 }
@@ -108,7 +113,7 @@ aside {
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.3);
+    border-color: transparent;
   }
   .navbar-default .navbar-header .navbar-brand {
     color: #205670;
@@ -155,9 +160,14 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/header_re.jpg');
   text-align: center;
   color: #205670;
+}
+@media (max-width: 992px) {
+  header {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../img/header_re.jpg');
+  }
 }
 header .header-content {
   position: relative;
@@ -393,6 +403,15 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   padding: 15px 30px;
+}
+#map {
+  padding-bottom: 25%;
+}
+@media (max-width: 992px) {
+  #map {
+    padding-bottom: 60%;
+    margin: 0 10px;
+  }
 }
 ::-moz-selection {
   color: white;
