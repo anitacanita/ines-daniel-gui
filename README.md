@@ -1,5 +1,8 @@
-# InÃªs Daniel & Gui
-Static website for InÃªs and Daniel's wedding + Gui's baptism
+# Inês Daniel & Gui
+
+[ines-daniel-gui.party](http://ines-daniel-gui.party/)
+
+Static website for Inês and Daniel's wedding + Gui's baptism
 
 ### Get Started
 
