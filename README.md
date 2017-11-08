@@ -1,12 +1,12 @@
-# Inês Daniel & Gui
+# InÃªs Daniel & Gui
 
 [ines-daniel-gui.party](http://ines-daniel-gui.party/)
 
-Static website for Inês and Daniel's wedding + Gui's baptism
+Static website for InÃªs and Daniel's wedding + Gui's baptism
 
 ### Get Started
 
-- Clone repo: `git clone https://anacarlos@bitbucket.org/anacarlos/ines-daniel-gui.git`
+- Clone repo: `git clone https://github.com/anitacanita/ines-daniel-gui`
 - Install dependencies: `npm install`
 - Start server: `gulp browserSync`
 - Deploy: `surge`
